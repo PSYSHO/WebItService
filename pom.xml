@@ -19,8 +19,6 @@
         <java.version>1.8</java.version>
         <vaadin.version>14.3.1</vaadin.version>
         <flow.server.prod.version>2.0.17</flow.server.prod.version>
-        <!--    DOCKER IMAGE ARGS   -->
-        <docker.project.repository>tlvlp/iot-portal</docker.project.repository>
         <service.port>8600</service.port>
     </properties>
 
