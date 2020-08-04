@@ -25,8 +25,7 @@ import webservice.webapp.repos.TaskTwoRepos;
 import java.util.*;
 
 import javax.annotation.PostConstruct;
-
-@Route("/test")
+@Route("")
 public class TaskList extends AppLayout {
     String path = "Tasks";
     private TaskManager taskManager = new TaskManager();
