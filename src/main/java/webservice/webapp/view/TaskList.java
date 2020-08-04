@@ -88,7 +88,7 @@ public class TaskList extends AppLayout {
                 confirm.addClickListener(clickEvent -> {
                     taskTwoRepos.delete(task2);
                     dialog.close();
-                    Notification notification = new Notification("Контакт удален", 1000);
+                    Notification notification = new Notification("Задача удалена", 1000);
                     notification.setPosition(Notification.Position.MIDDLE);
                     notification.open();
 
